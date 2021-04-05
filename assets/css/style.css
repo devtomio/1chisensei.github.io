@@ -19,8 +19,23 @@
         border-radius: 0;
 }
 
+.avatar-container img.image-title:hover {
+        animation: color-rotate 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+}
+
 @media (max-width: 550px) {
         .info-container {
                 padding-left: 0;
+        }
+}
+
+@keyframes color-rotate {
+        from {
+                filter: hue-rotate(0deg);
+        }
+        to {
+                filter: hue-rotate(360deg);
         }
 }
