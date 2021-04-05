@@ -1,0 +1,14 @@
+{
+        "name": "1chisensei.github.io",
+        "version": "1.0.0",
+        "main": "index.js",
+        "repository": "https://github.com/1chiSensei/1chisensei.github.io.git",
+        "license": "MIT",
+        "private": true,
+        "dependencies": {
+                "prettier": "^2.2.1"
+        },
+        "scripts": {
+                "prettier": "prettier . --write"
+        }
+}
