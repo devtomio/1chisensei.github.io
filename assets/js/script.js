@@ -1,4 +1,4 @@
-const scroll_to = (getID) => {
+const scroll_To = (getID) => {
         const id = getID.replace('#', '');
         const el = document.getElementById(id);
         el.scrollIntoView({ behavior: 'smooth', inline: 'nearest' });
