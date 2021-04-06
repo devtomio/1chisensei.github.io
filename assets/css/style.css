@@ -2,21 +2,46 @@
         margin-bottom: 0;
         letter-spacing: 2px;
 }
+
 .undertitle {
         font-style: italic;
 }
+
 .box-container p {
         font-size: 18px;
         margin-bottom: 0.2em;
 }
+
 .info-button {
         cursor: pointer;
 }
+
 .info-container {
         padding-left: 2.5em;
 }
+
 .btn {
         border-radius: 0;
+}
+
+.acongablob {
+        background-image: url('https://cdn.discordapp.com/emojis/469004978045059082.gif');
+}
+
+.ablobbounce {
+        background-image: url('https://cdn.discordapp.com/emojis/802741682637766726.gif');
+}
+
+.ablobblewobble {
+        background-image: url('https://cdn.discordapp.com/emojis/580595722798235648.gif');
+}
+
+.agooglecat {
+        background-image: url('https://cdn.discordapp.com/emojis/635273288767111205.gif');
+        vertical-align: -0.3em;
+        height: 1.25em;
+        width: 1.25em;
+        background-size: 1.25em 1.25em;
 }
 
 .avatar-container img.image-title:hover {
